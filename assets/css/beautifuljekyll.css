@@ -143,9 +143,13 @@ img {
   padding-bottom: 0;
 }
 
+.navbar-brand {
+  display: none !important;
+}
+
 .navbar-custom .navbar-brand {
   line-height: 1.5;
-  padding-top: 0.625rem !important;
+  padding-top: 0.625rem;
   padding-bottom: 0.625rem;
   font-size: 1.125rem;
 }
