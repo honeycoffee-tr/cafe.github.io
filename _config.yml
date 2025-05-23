@@ -100,7 +100,6 @@ post_search: true
 # 웹사이트의 색상을 개인화하세요. 색상 값은 유효한 CSS 색상일 수 있습니다
 
 # navbar-col: "#EAEAEA"
-navbar-img: "assets/img/check.png"
 navbar-text-col: "#404040"
 navbar-border-col: "#DDDDDDDDDD"
 page-col: "#FFFFFF"
@@ -114,7 +113,7 @@ page-col: "#FFFFFF"
 # 또는, 나바, 바닥글, 페이지 배경을 이미지로 설정할 수 있습니다
 # 색깔 대신
 
-#navbar-img: "/assets/img/bgimage.png"
+navbar-img: "assets/img/check.png"
 #footer-img: "/assets/img/bgimage.png"
 #page-img: "/assets/img/bgimage.png"
 
