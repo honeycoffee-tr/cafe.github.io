@@ -68,50 +68,51 @@ social-network-links:
 # --- 일반 설정 --- #
 
 # 포스트 하단에 활성화할 SNS 공유 아이콘입니다. 사용하지 않으려면 false 로 지정해주세요.
-share-links-active:
-  twitter: true
-  facebook: false
-  linkedin: false
-  vk: false
+주식 links 활성화:
+ 트위터: 진실의
+ 페이스북: 거짓의
+ 링크드인: 거짓의
+ vk: 거짓의
 
 # 웹사이트 링크를 사이트 하단에 어떻게 표시할지 설정합니다.
 # 필요 없다면 아래 문장을 한 줄 지워주세요.
-url-pretty: "Yourname.com"
+URL-pretty: "Yourname.com "
 
 # --------- 이 아래로는 관련 지식이 없다면 절대 변경하지 마세요. -----------
 
-# Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
-excerpt_length: 50
+# 발췌 단어 길이 - 피드 페이지의 각 게시물에서 발췌한 내용을 지정된 단어 수로 자릅니다
+발췌_길이: 50
 
-# Whether or not to show an excerpt for every blog post in the feed page
+# 피드 페이지의 모든 블로그 게시물에 대한 발췌문을 표시할지 여부
 feed_show_excerpt: true
 
-# Whether or not to show a list of tags below each post preview in the feed page
+# 피드 페이지의 각 게시물 미리보기 아래에 태그 목록을 표시할지 여부
 feed_show_tags: true
 
-# The keywords to associate with your website, for SEO purposes
-#keywords: "my,list,of,keywords"
+# SEO 목적으로 웹사이트와 연결할 키워드
+#키워드: "내 목록, keywords"
 
-# Add a search button to the navbar
+# 탐색 표시줄에 검색 버튼 추가
 post_search: true
 
-# --- Colours / background image --- #
+# --- 색상 / 배경 이미지 --- #
 
-# Personalize the colours in your website. Colour values can be any valid CSS colour
+# 웹사이트의 색상을 개인화하세요. 색상 값은 유효한 CSS 색상일 수 있습니다
 
-navbar-col: "#EAEAEA"
+# navbar-col: "#EAEAEA"
+navbar-img: "assets/img/check.png"
 navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
+navbar-border-col: "#DDDDDDDDDD"
 page-col: "#FFFFFF"
-text-col: "#404040"
-link-col: "#008AFF"
-hover-col: "#0085A1"
-footer-col: "#EAEAEA"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
+텍스트-콜: "#404040"
+링크-콜: "#008AFF"
+호버콜: "#0085A1"
+풋터콜: "#EAEAEA"
+바닥글-텍스트-콜: "#777777"
+바닥글 링크-콜: "#404040"
 
-# Alternatively, the navbar, footer, and page background can be set to an image
-# instead of colour
+# 또는, 나바, 바닥글, 페이지 배경을 이미지로 설정할 수 있습니다
+# 색깔 대신
 
 #navbar-img: "/assets/img/bgimage.png"
 #footer-img: "/assets/img/bgimage.png"
