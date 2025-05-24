@@ -12,7 +12,7 @@ author: 꿀커피
 
 # --- 상단에 표시될 메뉴 이름들 --- #
 
-navbar-links:
+Avbar-li:
   About: "aboutme" # 이렇게 마크다운 문서를 보여줄 수도 있고 (이 때 .md는 뺀 제목만 씁니다)
   Postype: "https://postype.com/" # 이렇게 외부 링크로 이어지게 할 수도 있습니다.
   Links: 
@@ -22,7 +22,7 @@ navbar-links:
 
 # 상단에 보여질 아바타 이미지입니다. 정사각형 이미지에 최적화
 # 이미지를 표시하지 않으려면 아래 줄을 모두 지워주세요.
-avatar: "assets/img/norang.png"
+avatar: "assets/img/no오라
 
 # 아바타 이미지를 둥글게 만들어 줍니다. 해제하려면 true를 false로 바꿔주세요.
 round-avatar: true
@@ -114,7 +114,7 @@ page-col: "#FFFFFF"
 # 색깔 대신
 
 navbar-img: "assets/img/check.png"
-#footer-img: "/assets/img/bgimage.png"
+footer-img: "assets/img/check.png"
 #page-img: "/assets/img/bgimage.png"
 
 # Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
