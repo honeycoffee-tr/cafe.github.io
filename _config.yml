@@ -69,14 +69,14 @@ social-network-links:
 
 # 포스트 하단에 활성화할 SNS 공유 아이콘입니다. 사용하지 않으려면 false 로 지정해주세요.
 주식 links 활성화:
- 트위터: 진실의
- 페이스북: 거짓의
- 링크드인: 거짓의
- vk: 거짓의
+ 트위터: true
+ 페이스북: false
+ 링크드인: false
+ vk: false
 
 # 웹사이트 링크를 사이트 하단에 어떻게 표시할지 설정합니다.
 # 필요 없다면 아래 문장을 한 줄 지워주세요.
-URL-pretty: "Yourname.com "
+URL-예쁨: "Yourname.com "
 
 # --------- 이 아래로는 관련 지식이 없다면 절대 변경하지 마세요. -----------
 
@@ -101,12 +101,12 @@ post_search: true
 
 # navbar-col: "#EAEAEA"
 navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDDDDDD"
-page-col: "#FFFFFF"
+나바-보더-콜: "#DDDDDDDDDDDD"
+page-col: "#f9f7f5"
 텍스트-콜: "#404040"
 링크-콜: "#008AFF"
 호버콜: "#0085A1"
-# 풋터콜: "#EAEAEA"
+# footer_cor: "#EAEAA"
 바닥글-텍스트-콜: "#777777"
 바닥글 링크-콜: "#404040"
 
@@ -117,31 +117,31 @@ navbar-img: "assets/img/check.png"
 footer-img: "assets/img/check.png"
 #page-img: "/assets/img/bgimage.png"
 
-# Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
-#mobile-theme-col: "#0085A1"
+# 모바일 브라우저가 브라우저의 테마로 사용할 색상을 제안합니다. 이것은 몇몇 모바일 브라우저에서만 지원됩니다.
+#모바일 테마 콜: "#0085A1"
 
-# For any extra visual customization, you can include additional CSS files in every page on your site. List any custom CSS files here
-#site-css:
-#  - "/assets/css/custom-styles.css"
+# 추가적인 시각적 맞춤 설정을 위해 사이트의 모든 페이지에 추가 CSS 파일을 포함할 수 있습니다. 여기에 사용자 지정 CSS 파일 나열
+#사이트 css:
+# - "/assets/css/맞춤형 스타일.css"
 
-# If you have common JavaScript files that should be included in every page, list them here
+# 모든 페이지에 포함되어야 하는 일반적인 JavaScript 파일이 있는 경우, 여기에 나열하세요
 #site-js:
-#  - "/assets/js/custom-script.js"
+# - "/assets/js/custom-script.js"
 
-# --- Web Analytics Section --- #
+# --- 웹 분석 섹션 --- #
 
-# Fill in your Google Analytics gtag.js ID to track your website using gtag
+# Google 애널리틱스 gtag.js ID를 입력하여 gtag를 사용하여 웹사이트를 추적하세요
 #gtag: ""
 
-# Fill in your Google Analytics ID to track your website using Google Analytics
-#google_analytics: ""
+# Google 애널리틱스를 사용하여 웹사이트를 추적하려면 Google 애널리틱스 ID를 입력하세요
+#구글_analytics: ""
 
-# Google Tag Manager ID
+# Google 태그 관리자 ID
 #gtm: ""
 
-# Matomo (aka Piwik) Web statistics
-# Uncomment the following section to enable Matomo. The opt-out parameter controls
-# whether or not you want to allow users to opt out of tracking.
+# 마토모(일명 피윅) 웹 통계
+# 다음 섹션의 주석을 해제하여 Matomo를 활성화합니다. 옵트아웃 매개변수 제어
+# 사용자가 추적을 거부할 수 있도록 허용할지 여부.
 #matomo:
 #  site_id: "9"
 #  uri: "demo.wiki.pro"
