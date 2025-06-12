@@ -370,8 +370,6 @@ img {
 
 /* --- Footer --- */
 
-/* --- Footer --- */
-
 footer {
   padding: 1.875rem 0;
   border-top: 1px #EAEAEA solid;
@@ -1109,24 +1107,9 @@ pre {
 
 /* --- 커스텀 수정사항 --- */
 
-/* 사용자명 완전히 숨기기 */
+/* 사용자명 숨기기 */
 .navbar-custom .navbar-brand,
-.navbar .navbar-brand,
 .navbar-brand,
 a.navbar-brand {
     display: none !important;
-}
-
-/* Footer 기본 스타일 + 이미지 */
-footer {
-    padding: 1.875rem 0 !important;
-    border-top: 1px #EAEAEA solid !important;
-    margin-top: 3.125rem !important;
-    font-size: 0.875rem !important;
-    background-color: transparent !important;
-    background-image: url('https://honeycoffee-tr.github.io/assets/img/check.png') !important;
-    background-size: cover !important;
-    background-position: center !important;
-    background-repeat: no-repeat !important;
-    background-attachment: fixed !important;
 }
