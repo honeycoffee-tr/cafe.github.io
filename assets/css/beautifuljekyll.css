@@ -375,7 +375,7 @@ footer {
   border-top: 1px #EAEAEA solid;
   margin-top: 3.125rem;
   font-size: 0.875rem;
-  background-color: {{ site.footer-col | default: "#EAEAEA" }};
+  background-color: {{ site.footer-col | default: "transparent" }};
   {% if site.footer-img %}
     background-image: url({{ site.footer-img | relative_url }});
     background-attachment: fixed;
@@ -1103,4 +1103,38 @@ pre {
 /* 사용자명 숨기기 - 더 강력한 선택자 */
 .navbar-brand {
     display: none !important;
+}
+
+/* --- 커스텀 수정사항 --- */
+
+/* 사용자명 숨기기 */
+.navbar-brand {
+    display: none !important;
+}
+
+/* Footer 배경 이미지 적용 */
+footer {
+    background-color: transparent !important;
+    background-image: url('/assets/img/check.png') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+}
+
+/* Footer 텍스트 가독성 향상 (선택사항) */
+footer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 1;
+}
+
+footer * {
+    position: relative;
+    z-index: 2;
 }
