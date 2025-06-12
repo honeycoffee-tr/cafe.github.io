@@ -372,14 +372,15 @@ img {
 
 footer {
   padding: 1.875rem 0;
+  border-top: 1px #EAEAEA solid;
   margin-top: 3.125rem;
   font-size: 0.875rem;
-    background-image: url("/assets/img/check.png") !important;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  {% endif %}
+  background-color: transparent;
+  background-image: url(/assets/img/check.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 footer p.text-muted {
