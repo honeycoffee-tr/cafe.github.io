@@ -115,6 +115,7 @@ page-col: "#f9f7f5"
 
 navbar-img: "assets/img/check.png"
 footer-img: "assets/img/check.png"
+footer-col: "transparent"  # 이 줄을 추가하세요!
 #page-img: "/assets/img/bgimage.png"
 
 # 모바일 브라우저가 브라우저의 테마로 사용할 색상을 제안합니다. 이것은 몇몇 모바일 브라우저에서만 지원됩니다.
