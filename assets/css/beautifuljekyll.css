@@ -1100,7 +1100,7 @@ pre {
   }
 }
 
-/* 사용자명 숨기기 */
-.navbar-custom .navbar-brand {
-    visibility: hidden !important;
+/* 사용자명 숨기기 - 더 강력한 선택자 */
+.navbar-brand {
+    display: none !important;
 }
