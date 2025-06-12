@@ -381,6 +381,9 @@ footer {
   {% if site.footer-img %}
     background-image: url({{ site.footer-img | relative_url }});
     background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   {% endif %}
 }
 
@@ -397,16 +400,19 @@ footer .list-inline {
   padding: 0;
   margin-bottom: 1.875rem;
 }
+
 footer .copyright {
   font-family: 'Noto Sans KR', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-align: center;
   margin-bottom: 0;
   margin-top: 0;
 }
+
 footer .theme-by {
   text-align: center;
   margin: 0.625rem 0 0;
 }
+
 footer .footer-custom-content {
   text-align: center;
   margin-bottom: 0.9375rem;
@@ -427,7 +433,6 @@ footer .footer-custom-content {
     font-size: 1rem;
   }
 }
-
 /* --- Post preview (feed) --- */
 
 .post-preview {
