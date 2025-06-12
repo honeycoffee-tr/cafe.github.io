@@ -1099,3 +1099,8 @@ pre {
     display: inline-block;
   }
 }
+
+/* 사용자명 숨기기 */
+.navbar-custom .navbar-brand {
+    visibility: hidden !important;
+}
