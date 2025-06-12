@@ -370,49 +370,62 @@ img {
 
 /* --- Footer --- */
 
-/* --- 커스텀 수정사항 --- */
+/* --- Footer --- */
 
-/* 사용자명 완전히 숨기기 */
-.navbar-custom .navbar-brand,
-.navbar .navbar-brand,
-.navbar-brand,
-a.navbar-brand {
-    display: none !important;
-    visibility: hidden !important;
-    opacity: 0 !important;
-}
-
-/* Footer 배경 이미지 적용 */
 footer {
-    background-color: transparent !important;
-    background-image: url('https://honeycoffee-tr.github.io/assets/img/check.png') !important;
-    background-size: cover !important;
-    background-position: center !important;
-    background-repeat: no-repeat !important;
-    background-attachment: fixed !important;
-    position: relative !important;
+  padding: 1.875rem 0;
+  border-top: 1px #EAEAEA solid;
+  margin-top: 3.125rem;
+  font-size: 0.875rem;
+  background-color: {{ site.footer-col | default: "transparent" }};
+  {% if site.footer-img %}
+    background-image: url({{ site.footer-img | relative_url }});
+    background-attachment: fixed;
+  {% endif %}
 }
 
-/* Footer 텍스트 가독성 향상 */
-footer::before {
-    content: '';
-    position: absolute !important;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(255, 255, 255, 0.7) !important;
-    z-index: 1;
+footer p.text-muted {
+  color: {{ site.footer-text-col | default: "#777777" }} !important;
 }
 
-footer .beautiful-jekyll-footer {
-    position: relative !important;
-    z-index: 2 !important;
+footer a {
+  color: {{ site.footer-link-col | default: "#404040" }};
 }
 
-footer * {
-    position: relative !important;
-    z-index: 2 !important;
+footer .list-inline {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1.875rem;
+}
+footer .copyright {
+  font-family: 'Noto Sans KR', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+footer .theme-by {
+  text-align: center;
+  margin: 0.625rem 0 0;
+}
+footer .footer-custom-content {
+  text-align: center;
+  margin-bottom: 0.9375rem;
+  font-family: 'Noto Sans KR', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+@media (min-width: 768px) {
+  footer {
+    padding: 3.125rem 0;
+  }
+  footer .footer-links {
+    font-size: 1.125rem;
+  }
+  footer .copyright {
+    font-size: 1rem;
+  }
+  footer .footer-custom-content {
+    font-size: 1rem;
+  }
 }
 
 /* --- Post preview (feed) --- */
@@ -1096,34 +1109,45 @@ pre {
 
 /* --- 커스텀 수정사항 --- */
 
-/* 사용자명 숨기기 */
-.navbar-brand {
+/* 사용자명 완전히 숨기기 */
+.navbar-custom .navbar-brand,
+.navbar .navbar-brand,
+.navbar-brand,
+a.navbar-brand {
     display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
 }
 
 /* Footer 배경 이미지 적용 */
 footer {
     background-color: transparent !important;
-    background-image: url('/assets/img/check.png') !important;
+    background-image: url('https://honeycoffee-tr.github.io/assets/img/check.png') !important;
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-attachment: fixed !important;
+    position: relative !important;
 }
 
-/* Footer 텍스트 가독성 향상 (선택사항) */
+/* Footer 텍스트 가독성 향상 */
 footer::before {
     content: '';
-    position: absolute;
+    position: absolute !important;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.7) !important;
     z-index: 1;
 }
 
+footer .beautiful-jekyll-footer {
+    position: relative !important;
+    z-index: 2 !important;
+}
+
 footer * {
-    position: relative;
-    z-index: 2;
+    position: relative !important;
+    z-index: 2 !important;
 }
